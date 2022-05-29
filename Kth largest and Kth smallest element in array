@@ -1,0 +1,2 @@
+// Method 1 : Sort and get : o(nlogn)
+//Method 2 : Create a BST and then do inorder traversal to get kth smallest and Kth largest in single traversal because we are aware about the length of the array. : o(n)
