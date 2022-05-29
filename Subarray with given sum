@@ -1,0 +1,46 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+    
+using System;
+using System.Collections.Generic;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        
+        
+            int[] arr = new int[] {1,1,1,7,5};
+            int s = 5;
+            int n = arr.Length;
+            int j =0;
+            List<int> list = new List<int>();
+            int sum = 0;
+            for(int i=0 ; i < n; i ++)
+            {
+                sum = sum + arr[i];
+                list.Add(arr[i]);
+                if(sum == s)
+                {
+                    break;
+                }
+                else if(sum > s)
+                {
+                    //Console.Write("anshika" + sum);
+                    while(sum > s)
+                    {
+                        sum = sum - arr[j];
+                        list.RemoveAt(0);
+                        j++;
+                    }
+                    
+                    if(sum == s)
+                    break;
+                }
+            }
+            
+            foreach(int elem in list)
+            Console.Write (elem +  " ");
+        
+    }
+}
