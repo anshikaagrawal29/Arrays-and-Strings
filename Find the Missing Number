@@ -1,0 +1,16 @@
+Way 1: 
+ 1. Find the largest  number from the array
+ 2. No do sum from 0 to that number.
+ 3. Do sum of all elements of array
+ 4. No subtract both and you will get answer
+ 
+ Complexity : O(n)
+ 
+ Way 2: 
+ 
+1. Sort the array and iterate and check : Complexity : O(nlogn)
+
+Way 3: 
+
+1. Create the BST
+2. Do inorder traversal and with that find the element : O(n)
