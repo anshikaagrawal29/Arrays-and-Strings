@@ -1,0 +1,21 @@
+// Method 1: 
+
+   ]1. Sort and then loop until we see arr[i] + 1 = number 
+   
+   Method 2:
+   
+   1. FInd smallest element in array.
+   2. Put all elements of array in hashset
+   num = smallest element found in point 1
+   3. while(true)
+   {
+        if(h.Contains(num)
+        {
+          n++;
+        }
+        else
+        flag = false;
+   }
+   
+   4. answer would be from smallest to n-1 numbers are longest subsequence.
+   
