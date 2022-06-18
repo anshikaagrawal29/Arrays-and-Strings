@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=Q1TYVUEr-wY
+
+Option 1: 
+
+Using extra space: 
+1. We will create an array of double size and populate array with same elements
+ arr = {1,2,3}
+ so, arr = {1,2,3,1,2,3}
+ Now apply kaden's alogorithm in this new arr and return answer;
+ 
+ Option 2: 
+ 
+ 1. In a single loop
+ 2. Invert the array element
+ 3. maintain sum of whole array after inverting element.
+ 4. applying kaden's algorithm to invert element and get the max value.
+ 5. meanwhile in same loop check if all elements are negative, if yes then return min value
+ 6. else, if all elements are not negative
+ 7. then now we have inverted array sum and max element 
+ so answer would be : -(array sum - max)
+ 
+ 
